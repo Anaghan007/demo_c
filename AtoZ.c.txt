@@ -1,0 +1,14 @@
+#include<stdio.h>
+void sum()
+{
+    for(char i='A';i<='Z';i++)
+    {
+        printf("%c\t",i);
+    }
+    
+}
+int main()
+{
+    sum();
+    return 0;
+}
